@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  padding: 80px;
+  width: 1280px;
+  background-color: #F5F4F0;
+}
+
+header img {
+  height: 660px;
+}
+
+main img {
+  height: 350px;
+}
+
+img:not(footer img) {
+  border-radius: 28px;
+  width: 100%;
+  object-fit: cover;
+}
+
